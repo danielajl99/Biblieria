@@ -1,0 +1,94 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            /* Fondo con la imagen de la biblioteca */
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('https://mywowo.net/media/images/cache/new_york_bryant_park_02_public_library_jpg_1200_630_cover_85.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-card {
+            background-color: rgba(62, 39, 35, 0.95); /* Marrón oscuro con ligera transparencia */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            width: 100%;
+            max-width: 400px;
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 25px;
+            font-size: 2rem;
+            color: #ffb74d; /* Naranja suave para el título */
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            color: #d7ccc8;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5d4037;
+            color: white;
+            outline: none;
+        }
+
+        input:focus {
+            background-color: #6d4c41;
+            border-bottom: 2px solid #ff9800;
+        }
+
+        .btn-login {
+            width: 100%;
+            padding: 12px;
+            background-color: #e67e22; /* Naranja corporativo */
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+            margin-top: 10px;
+        }
+
+        .btn-login:hover {
+            background-color: #d35400;
+        }
+
+        .footer-links {
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        .footer-links a {
+            color: #ffb74d;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
