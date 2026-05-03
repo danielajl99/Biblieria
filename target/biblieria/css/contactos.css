@@ -1,0 +1,116 @@
+body {
+    background: var(--bg);
+    color: var(--text);
+}
+
+.contact-hero {
+    min-height: calc(100vh - 72px);
+    padding: 48px 20px;
+    background: linear-gradient(rgba(36, 23, 19, 0.78), rgba(36, 23, 19, 0.9)),
+                url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1500&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-glass-card {
+    max-width: 1050px;
+    margin: 0 auto;
+    background: rgba(50, 33, 28, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 30px;
+}
+
+.contact-header h1 {
+    margin: 0 0 8px;
+    color: var(--brand-2);
+}
+
+.contact-header p {
+    margin: 0 0 28px;
+    color: var(--muted);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+}
+
+.info-sidebar {
+    display: grid;
+    gap: 16px;
+}
+
+.info-item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    color: var(--muted);
+}
+
+.info-item h4 {
+    margin: 0 0 4px;
+    color: var(--text);
+}
+
+.info-item p {
+    margin: 0;
+}
+
+.icon-circle {
+    width: 42px;
+    height: 42px;
+    border-radius: var(--radius);
+    background: rgba(217, 119, 6, 0.16);
+    color: var(--brand-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    flex: 0 0 auto;
+}
+
+.input-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--muted);
+    font-weight: 700;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: var(--radius);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: var(--surface-2);
+    color: white;
+}
+
+.btn-send {
+    width: 100%;
+    padding: 12px;
+    border: 0;
+    border-radius: var(--radius);
+    background: var(--brand);
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    background: var(--brand-2);
+}
+
+@media (max-width: 800px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}

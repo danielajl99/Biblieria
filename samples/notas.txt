@@ -1,0 +1,2 @@
+Bibliería permite leer ficheros TXT.
+Este fichero sirve para demostrar conteo de líneas y palabras.

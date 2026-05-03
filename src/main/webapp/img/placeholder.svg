@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="420" viewBox="0 0 320 420">
+  <rect width="320" height="420" fill="#5d4037"/>
+  <rect x="40" y="40" width="240" height="340" rx="14" fill="#3e2723" stroke="#ff9800" stroke-width="6"/>
+  <text x="160" y="190" text-anchor="middle" fill="#ffb74d" font-family="Arial" font-size="32">Bibliería</text>
+  <text x="160" y="235" text-anchor="middle" fill="#fdfaf6" font-family="Arial" font-size="18">Sin portada</text>
+</svg>

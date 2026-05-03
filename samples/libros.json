@@ -1,0 +1,6 @@
+{
+  "libros": [
+    {"titulo": "1984", "autor": "George Orwell", "precio": 15.90},
+    {"titulo": "Cien años de soledad", "autor": "Gabriel García Márquez", "precio": 20.50}
+  ]
+}

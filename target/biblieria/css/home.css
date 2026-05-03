@@ -1,0 +1,47 @@
+.hero {
+    min-height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--text);
+    background: linear-gradient(rgba(36, 23, 19, 0.68), rgba(36, 23, 19, 0.82)),
+                url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 64px 20px;
+}
+
+.hero-content {
+    max-width: 760px;
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 7vw, 5.8rem);
+    margin: 0 0 1rem;
+    color: var(--brand-2);
+    letter-spacing: 0;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin: 0 0 2rem;
+    color: var(--muted);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: var(--brand);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--radius);
+    font-weight: 800;
+    transition: 0.25s ease;
+}
+
+.btn:hover {
+    background-color: var(--brand-2);
+    transform: translateY(-1px);
+}
